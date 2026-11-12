@@ -19,31 +19,11 @@ Basic exception and API error handling.
 
 Tech Stack              
 
-Technology                       Usage
-
-Java (JDK 21)                   Application development          
-OpenRouter API                  AI integration                   
-GPT-4o                          AI response generation
-HttpURLConnection               HTTP communication           
-JSON                            API request and response format   
-Git & GitHub                    Version control
-VS Code                         Development environment
+<img width="565" height="263" alt="image" src="https://github.com/user-attachments/assets/e47772c4-1a90-475b-8ad1-b6728ef3bf9c" />
 
 Project Structure
 
-AIChatBot/
-│
-├── src/
-│   └── main/
-│       └── java/
-│           └── org/
-│               └── example/
-│                   ├── Main.java
-│                   ├── ChatBot.java
-│                   └── AIService.java
-│
-├── .gitignore
-└── README.md
+<img width="405" height="335" alt="image" src="https://github.com/user-attachments/assets/824bc7be-5667-4b81-8efa-ad94e15993e2" />
 
 How It Works
 The application follows a simple three-class structure.
@@ -82,13 +62,13 @@ Application Flow
     AIService.java
         |
         v
-  OpenRouter REST API
+    OpenRouter REST API
         |
         v
       GPT-4o
         |
         v
-   AI-generated response
+    AI-generated response
         |
         v
     Console Output
@@ -127,9 +107,8 @@ java -cp out org.example.Main
 
 Sample Output
 
-=================================
-    AI CHATBOT STARTED
-=================================
+<img width="246" height="75" alt="image" src="https://github.com/user-attachments/assets/cee6089a-670c-4bf7-a314-e2392082be64" />
+
 
 You: What is Java?
 
@@ -155,25 +134,40 @@ The configured model must be available through your OpenRouter account.
 
 What I Learned
 While building this project, I worked with:
+
 Java classes, objects, and methods.
+
 Object-oriented programming principles.
+
 HTTP communication using HttpURLConnection.
+
 REST API integration.
+
 JSON request and response handling.
+
 API authentication using environment variables.
+
 Java exception handling.
+
 Git and GitHub for version control.
 
 Future Improvements
+
 Add conversation history so the chatbot can remember previous messages.
+
 Use Jackson for structured JSON processing.
+
 Convert the console application into a Spring Boot REST API.
+
 Integrate MySQL to store chat history.
+
 Build a web interface using HTML, CSS, and JavaScript.
 
 Author
 Swathy Madhavan
 
-GitHub:
+GitHub: https://github.com/SwathyMadhavan
+
 Project: Java AI Chatbot
+
 Built as a hands-on project to explore Java backend development and AI API integration.
